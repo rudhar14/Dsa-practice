@@ -23,5 +23,6 @@ print("Employee Name:", e1.get_name())
 print("Employee Salary:", e1.get_salary())
 e1.set_salary(60000)
 print("Updated Salary:", e1.get_salary())
-e1.set_name("Ridhu")        # Update the name
-print("updated name:", e1.name)   # Print the updated name
+
+e1.set_name("Ridhu")
+print("Updated Name:", e1.get_name())
