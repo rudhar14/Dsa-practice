@@ -1,0 +1,11 @@
+n = input("Enter your number: ")
+
+frequency_map = {}
+
+for i in range(len(n)):
+    if n[i] in frequency_map:
+        frequency_map[n[i]] += 1
+    else:
+        frequency_map[n[i]] = 1
+
+print(frequency_map)
