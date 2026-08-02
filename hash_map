@@ -1,0 +1,10 @@
+n = input("Enter your number: ")
+
+hash_map = {}
+
+num = len(n)
+
+for i in range(num):
+    hash_map[n[i]] = hash_map.get(n[i], 0) + 1
+
+print(hash_map)
